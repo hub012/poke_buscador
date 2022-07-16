@@ -2,7 +2,10 @@ const API_URL = 'https://pokeapi.co/api/v2';
 const div = document.querySelector('#app');
 const img = document.querySelector('#frontal');
 
-fetch(`${API_URL}/pokemon/jolteon`)
+
+
+function buscador(pokemon){
+    return fetch(`${API_URL}/pokemon/jolteon`)
     .then((response) => response.json())
     .then((pokemon) => {
         console.log(pokemon);
@@ -14,3 +17,5 @@ fetch(`${API_URL}/pokemon/jolteon`)
         div.innerHTML = `<o1>${cadena_front_default}</o1>`;
         img.setAttribute("src", cadena_front_default);
     });
+
+}
