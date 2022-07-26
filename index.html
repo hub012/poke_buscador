@@ -5,20 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css">
+     <!--Import Google Icon Font-->
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     <!--Import materialize.css-->
+     <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
 </head>
-<body>
-    <div id="app">     
-    </div>
-    <script src="/js/script.js"></script>
-     <form action="">
+<body id="bd">
+   
+    <form action="">
         <div>
             <label for="name"><b>Name</b></label><br>
             <input type="text" name="name" id="name">
-             </div>
-            
-            <input type="button" name="buscar" id="buscar" value="Buscar">
+        </div>
 
-           </form>
+        <input type="button" name="buscar" id="buscar" value="Buscar" onclick="buscador()">
+    </form>
 
+    <img id="character" > 
+
+    <h3> Movimientos: </h3>
+    <div id="moves"> 
+        
+    </div>
+
+    <h3> Habilidades: </h3>
+    <div id="skills"> 
+    
+    </div>
+
+    <h3> Estadisticas: </h3>    
+    <div id="stats"> 
+        
+    </div>
+        
+    <script src="/js/script.js"></script>
 </body>
 </html>

@@ -1,0 +1,27 @@
+#skills{
+    color:orange;
+    font-weight:bold;
+    Font-size:20px;
+    margin: 10px 0px 10px 0px;
+    }
+
+#moves{
+    color:hwb(143 0% 0%);
+    font-weight:bold;
+    Font-size:20px;
+    margin: 10px;
+}
+
+#name{
+    color:rgb(51, 42, 21);
+    font-weight:bold;
+    Font-size:20px;
+    margin: 10px 0px 10px 0px;
+}
+    
+#stats{
+    color:rgb(31, 29, 181);
+    font-weight:bold;
+    Font-size:20px;
+    margin: 10px 0px 10px 0px;
+}
